@@ -20,6 +20,7 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
+        //Se llama a la funcion directamente
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -27,6 +28,7 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
+        //Se almacena en 2 variables los valores de las 2 posiciones
         
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
@@ -34,6 +36,7 @@ public class Ejemplo06 {
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
         }
+        //A mas de los valores, se almacena en otra variable el resultado de la suma
         
         
 
